@@ -6,5 +6,6 @@ public class Main {
         intList.add(1);
         int a = intList.get(0);
 
+
     }
 }
