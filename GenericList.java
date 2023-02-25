@@ -1,6 +1,6 @@
 package Generics;
 
-public class GenericList <T extends Comparable>{
+public class GenericList <T extends Comparable >{
     private T[] items = (T[]) new Object[10];
     private int count;
     public void add(T item){
