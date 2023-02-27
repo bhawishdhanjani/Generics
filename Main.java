@@ -6,7 +6,7 @@ public class Main {
         User user2 = new User(20);
         User maxUser = Utils.max(user1,user2);
         System.out.println(maxUser);
-        Utils.print("ABC",1);
+        Utils.printUser(new GenericList<User>());
 
     }
 }
