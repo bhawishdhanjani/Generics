@@ -10,6 +10,6 @@ public class Utils {
     }
     public static void printUser(GenericList<? super User> user){
         user.add(new User(0));
-
     }
+
 }
